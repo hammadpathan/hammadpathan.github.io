@@ -161,7 +161,7 @@ function sendrequest() {
 
     var request = new XMLHttpRequest();
 
-    request.open('GET', 'http://localhost:4000/leaderboard/' + gamenamestuff + "/" + gametagstuff);
+    request.open('GET', 'https://serverforvaltracker.herokuapp.com/leaderboard/' + gamenamestuff + "/" + gametagstuff);
 
     //front end
     thecontainer.classList.add("removed");
