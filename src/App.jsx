@@ -86,7 +86,7 @@ export default function Portfolio() {
 
       ],
       challenges: "Accessing save data on server and manipulating files while bypassing authentication mechanisms on reupload. Solved by implementing a MITM proxy to intercept and replicate authorized requests, followed by decoding tables and reverse-engineering the binary format to understand the data structure and hashing.",
-      //github: "https://github.com/yourusername/project1",
+      github: "https://github.com/hammadpathan/bcceditor",
       //live: "https://demo.com"
     },
     {
@@ -102,7 +102,7 @@ export default function Portfolio() {
         "Search and filter functionality for easy navigation"
       ],
       challenges: "Implementing OCR to accurately extract text and students from diverse composite images. Overcame this by leveraging OpenCV for image preprocessing and EasyOCR, fine-tuning parameters to enhance text and student recognition accuracy across various image qualities.",
-      //github: "https://github.com/yourusername/project2",
+      github: "https://github.com/PaisWillie/Digital-Composite",
       //live: "https://demo.com"
     },
     {
@@ -119,7 +119,7 @@ export default function Portfolio() {
         "Discord bot integration for ride updates and communication"
       ],
       challenges: "Handling real-time ride matching and updates while ensuring data consistency. Addressed this by utilizing Firebase's real-time database capabilities, allowing instantaneous synchronization of ride data between drivers and riders.",
-      //github: "https://github.com/yourusername/project3",
+      github: "https://github.com/hammadpathan/ShareARide-backend",
       //live: "https://demo.com"
     }
   ];
@@ -304,10 +304,10 @@ export default function Portfolio() {
                   >
                     Learn More →
                   </button>
-                  {/*<a href={project.github} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-purple-400 hover:text-purple-300 transition-colors" onClick={(e) => e.stopPropagation()}>
+                  {<a href={project.github} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-purple-400 hover:text-purple-300 transition-colors" onClick={(e) => e.stopPropagation()}>
                     <Github size={20} />
                     Code
-                  </a>*/}
+                  </a>}
                 </div>
               </div>
             ))}
